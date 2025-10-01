@@ -18,3 +18,4 @@ for i in range(number_variables):
     z_coefficients = float(input("ingrese el coeficiente de la variable x {i + 1}"))
     # mostrar variables con su coeficiente
     print(f"Coeficiente de x{i + 1} : {z_coefficients}")
+    funtion_objective += z_coefficients * variables[i]
